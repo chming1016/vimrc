@@ -13,6 +13,7 @@ set expandtab
 set cin
 set backspace=2
 set hlsearch
+nnoremap <CR> :noh<CR><CR>
 set list listchars=tab:\:\ ,trail:·,extends:»,precedes:«,nbsp:×
 hi Search cterm=reverse ctermbg=none ctermfg=none
 vmap <C-x> :!pbcopy<cr>
